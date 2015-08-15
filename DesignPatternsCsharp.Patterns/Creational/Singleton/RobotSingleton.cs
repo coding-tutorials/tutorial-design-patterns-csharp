@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace DesignPatternsCsharp.Patterns
+namespace DesignPatternsCsharp.Patterns.Creational.Singleton
 {	
 	public class RobotSingleton
 	{

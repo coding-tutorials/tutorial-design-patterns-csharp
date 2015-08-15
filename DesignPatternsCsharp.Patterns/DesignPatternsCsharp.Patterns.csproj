@@ -35,15 +35,20 @@
     <Compile Include="Creational\Singleton\RobotSingleton.cs" />
     <Compile Include="Creational\Builder\Robot.cs" />
     <Compile Include="Creational\Builder\RobotBuilder.cs" />
+    <Compile Include="Creational\Factory\Robot.cs" />
+    <Compile Include="Creational\Factory\RobotFactory.cs" />
+    <Compile Include="Creational\Factory\RobotType.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
     <Folder Include="Creational\" />
     <Folder Include="Creational\Singleton\" />
     <Folder Include="Creational\Builder\" />
+    <Folder Include="Creational\Factory\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Creational\Singleton\Singleton.md" />
     <None Include="Creational\Builder\Builder.md" />
+    <None Include="Creational\Factory\Factory.md" />
   </ItemGroup>
 </Project>

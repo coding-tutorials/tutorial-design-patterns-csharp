@@ -1,7 +1,7 @@
 ﻿using System;
 using NUnit.Framework;
 
-using DesignPatternsCsharp.Patterns;
+using DesignPatternsCsharp.Patterns.Creational.Builder;
 
 namespace DesignPatternsCsharp.Test
 {

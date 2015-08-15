@@ -36,6 +36,7 @@
   <ItemGroup>
     <Compile Include="Creational\Singleton\SingletonTest.cs" />
     <Compile Include="Creational\Builder\BuilderTest.cs" />
+    <Compile Include="Creational\Factory\FactoryTest.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
@@ -45,6 +46,7 @@
     <Folder Include="Creational\" />
     <Folder Include="Creational\Singleton\" />
     <Folder Include="Creational\Builder\" />
+    <Folder Include="Creational\Factory\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DesignPatternsCsharp.Patterns\DesignPatternsCsharp.Patterns.csproj">
